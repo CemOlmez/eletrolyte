@@ -1,0 +1,11 @@
+@media screen and (max-width: 1200px) {
+    #home-nav {
+        display: none;
+    }
+    #navbar-toggler{
+        display: flex;
+    }
+    
+}
+
+

@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="mediaqueries.css">
+</head>
+
+<body>
+
+    <nav id="home-nav">
+        <div class="nav-logo">
+            <img src="/eletrolyte/İmg/Logo_V22.11 1.png" alt="Logo">
+        </div>
+        <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#symptoms">Symptoms</a></li>
+            <li><a href="#benefits">Benefits</a></li>
+            <li><a href="#connect">Connect</a></li>
+        </ul>
+        <button class="buy-btn">Buy Now</button>
+    </nav>
+    
+    <nav id="navbar-toggler">
+        <div class="nav-logo">
+            <img src="/eletrolyte/İmg/Logo_V22.11 1.png" alt="Logo">
+        </div>
+        <div class="toggle-menu">
+            <div class="toggle-icon" onclick="toggleMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <ul class="toggle-links">
+                <li><a href="#home" onclick="toggleMenu()">Home</a></li>
+                <li><a href="#symptoms" onclick="toggleMenu()">Symptoms</a></li>
+                <li><a href="#benefits" onclick="toggleMenu()">Benefits</a></li>
+                <li><a href="#connect" onclick="toggleMenu()">Connect</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <section id="home">
+        <div class="section_text">
+            <h1 class="title">Boost your electrolyte levels and make water fasting x10 easier</h1>
+        </div>
+        <div class="section_img_container">
+            <img src="/eletrolyte/İmg/Fasting salts box (3D).png" alt="Fasting salts box">
+        </div>
+        <div class="section_text">
+            <p class="section_text_p2">Ideal for 24+ hour fasts</p>
+
+            <p class="section_text_p1">Pure electrolyte salt to rehydrate and restore electrolyte balance
+                Free from sugar, sweeteners, flavoring, gluten, and soy</p>
+            
+            <div>
+                <button class="buy-btn">Buy Now</button>
+                <button class="buy-btn" onclick="location.href='./#connect'">Contact Info</button>
+            </div>
+
+            <div id="social-container">
+                <img src="/eletrolyte/İmg/014instagram.png" alt="Instagram contact" class="icon"
+                    onclick="location.href='https://www.instagram.com/'">
+                <img src="/eletrolyte/İmg/027whatsapp.png" alt="whatsapp contact" class="icon"
+                    onclick="location.href='https://web.whatsapp.com/'">
+            </div>
+        </div>
+    </section>
+
+    <section id="symptom">
+        <p class="section_text_p1">Know More</p>
+        <h1 class="title">Symptoms</h1>
+        <div class=section-container>
+            <div class="section_img_container">
+                <img src="/eletrolyte/İmg/Symptoms image.png" alt="Woman With Headache" class="symptom-img">
+            </div>
+            <div class="symptom-details-container">
+                <div class="symptom-container">
+                    <div class="details-container">
+                        <img src="./İmg/symptms list.png" alt="Symptoms icon" class="icon">
+                        <h3>Symptoms Of Electrolyte Imbalance:</h3>
+                        <ul>
+                            <li>Headaches</li>
+                            <li>Fatigue</li>
+                            <li>Confusion</li>
+                            <li>Dizziness</li>
+                            <li>Mood changes</li>
+                            <li>Vomiting</li>
+                            <li>Loss of appetite</li>
+                            <li>Stomach pain</li>
+                            <li>rregular heartbeat</li>
+                            <li>Numbness</li>
+                            <li>Constipation</li>
+                            <li>Frequent urination</li>
+                            <li>Dry mouth</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <img src="./İmg/arrow.png" alt="Arrow icon" class="icon-arrow" onclick="location.href='./#benefits'">
+    </section>
+    <section id="causes">
+        <p class="section_text_p1">Know More</p>
+        <h1 class="title">Causes</h1>
+        <div class=section-container>
+            <div class="causes-details-container">
+                <div class="causes-container">
+                    <div class="details-container">
+                        <img src="./İmg/symptms list.png" alt="causes icon" class="icon">
+                        <h3>Symptoms Of Electrolyte Imbalance:</h3>
+                        <ul>
+                            <li>Dehydration</li>
+                            <li>Sweating</li>
+                            <li>Fasting</li>
+                            <li>Excessive water consumption</li>
+                            <li>Certain medications</li>
+                            <li>Diarrhea</li>
+                            <li>Vomiting</li>
+                            <li>Severe burns</li>
+                            <li>Heart failure</li>
+                            <li>Eating disorders</li>
+                            <li>Kidney disease</li>
+                        </ul>
+                    </div>
+                    <div class="section_img_container">
+                        <img src="/eletrolyte/İmg/Symptoms image.png" alt="Woman With Headache" class="symptom-img">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <img src="./İmg/arrow.png" alt="Arrow icon" class="icon-arrow" onclick="location.href='./#benefits'">
+    </section>
+
+    <section id="benefits">
+        <p class="section_text_p1">Know More</p>
+        <h1 class="title">Benefits</h1>
+        <div class=section-container>
+            <div class="section_img_container">
+                <img src="/eletrolyte/İmg/Symptoms image.png" alt="Woman With Headache" class="benefits-img">
+            </div>
+            <div class="benefits-details-container">
+                <div class="benefits-container">
+                    <div class="details-container">
+                        <img src="./İmg/symptms list.png" alt="benefits icon" class="icon">
+                        <h3>Benefits of boosting electrolyte levels:</h3>
+                        <ul>
+                            <li>Improve exercise performance</li>
+                            <li>Support nervous system function</li>
+                            <li>Improved rehydration</li>
+                            <li>Improved water retention</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <img src="./İmg/arrow.png" alt="Arrow icon" class="icon-arrow" onclick="location.href='./#benefits'">
+    </section>
+
+
+        <script src="app.js"></script>
+</body>
+
+</html>
+
+
+
+
+
+<!-- <p class="section_text_l1">
+    <ul>
+        <li>Headaches</li>
+        <li>Fatigue</li>
+        <li>Confusion</li>
+        <li>Dizziness</li>
+        <li>Mood changes</li>
+        <li>Vomiting</li>
+        <li>Loss of appetite</li>
+        <li>Stomach pain</li>
+        <li>rregular heartbeat</li>
+        <li>Numbness</li>
+        <li>Constipation</li>
+        <li>Frequent urination</li>
+        <li>Dry mouth</li>
+    </ul>
+</p> -->
