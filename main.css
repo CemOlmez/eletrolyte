@@ -36,8 +36,11 @@ nav,
     display: flex;
 }
 
-.nav-logo {
+.logo {
     position: relative;
+}
+.logo img {
+    height: 10vh;
 }
 
 nav {
@@ -224,13 +227,10 @@ section {
     text-align: center;
 }
 
-
-#social-container {
-    display: flex;
-    justify-content: center;
-    margin-top: 1rem;
-    gap: 1rem;
+.btn-home{
+    margin-top: 2rem;
 }
+
 
 /* ICONS */
 
@@ -252,7 +252,7 @@ section {
 /* Symptom Section */
 
 
-#symptom {
+#symptoms {
     position: relative;
     display: flex;
     flex-direction: column;
@@ -263,8 +263,8 @@ section {
 
 .symptom-container {
     gap: 2rem;
-    margin-bottom: 2rem;
-    margin-top: 2rem;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
 }
 
 .symptom-details-container {
@@ -284,7 +284,7 @@ section {
 
 
 .details-container {
-    padding: 5rem;
+    padding: 2rem;
     flex: 1;
     background: white;
     text-align: center;
@@ -313,6 +313,8 @@ section {
 .details-container img {
     margin-bottom: 2rem;
 }
+
+
 
 /* CASUES */
 #causes {
@@ -381,6 +383,37 @@ section {
     display: flex;
 }
 
-/* .benefits-img {
+.benefits-img {
     border-radius: 2rem;
-} */
+}
+
+/* FOOTER */
+
+
+#connect {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center; 
+    gap: 5rem;
+    height: 80vh;
+}
+
+
+.footer-text p {
+    font-size: 1.50rem;
+    margin: 0 auto;
+}
+
+#social-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem ;
+    gap: 3rem;
+}
+
+#social-container img { 
+    height: 5vh;
+}

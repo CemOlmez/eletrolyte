@@ -1,11 +1,115 @@
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 1400px) {
+    #home {
+      height: 83vh;
+      margin-bottom: 6rem;
+    }
+    .details-containers {
+      flex-wrap: wrap;
+    }
+    #symptoms,
+    #causes,
+    #benefits,
+    #connect, {
+      height: fit-content;
+    }
+  }
+  
+  @media screen and (max-width: 1200px) {
     #home-nav {
-        display: none;
+      display: none;
     }
-    #navbar-toggler{
-        display: flex;
+    #navbar-toggler {
+      display: flex;
     }
-    
-}
+    #symptoms,
+    .details-container {
+      margin-top: 2rem;
+    }
+    #home,
+    .section-container {
+      display: block;
+    }
+    .icon-arrow {
+      display: none;
+    }
+    section,
+    .section-container {
+      height: fit-content;
+    }
+    section {
+      margin: 0 5%;
+    }
+    .section_img_container {
+      width: 400px;
+      height: 400px;
+      margin: 0 auto;
+      margin-top: 2rem;
+    }
+
+    .btn-home{
+        margin: 5% 5%;
+    }
+    .section_text_p1,
+    .section_text_p2{
+        margin-top: 2rem;
+        font-size: 1.25rem;
+    }
+
+    .symptom-details-container{
+        display: block;
+    }
 
 
+
+  }
+  
+  @media screen and (max-width: 600px) {
+    #connect,
+    footer {
+      height: 80vh;
+    }
+    #home {
+      height: 83vh;
+      margin-bottom: 0;
+    }
+  
+    footer n {
+      height: fit-content;
+      margin-bottom: 2rem;
+    }
+    .about-containers,
+    .social-container,
+    .buy-btn {
+      flex-wrap: wrap;
+    }
+    .social-container {
+      margin: 0;
+    }
+
+    .nav-links li a {
+      font-size: 1rem;
+    }
+    .experience-sub-title {
+      font-size: 1.25rem;
+    }
+    .logo {
+      font-size: 1.5rem;
+    }
+    .nav-links {
+      flex-direction: column;
+      gap: 0.5rem;
+      text-align: center;
+    }
+    .section_img_container {
+      width: auto;
+      height: 46vw;
+      justify-content: center;
+    }
+
+    .title {
+      font-size: 2rem;
+    }
+    .text-container {
+      text-align: justify;
+    }
+  }
