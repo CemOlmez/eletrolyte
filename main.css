@@ -190,11 +190,12 @@ section {
 #home {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     box-sizing: border-box;
     gap: 5rem;
-    height: 80vh;
+    height: auto;
+    margin-top: 5rem;
 }
 
 .section_img_container {
@@ -257,11 +258,12 @@ section {
 #symptoms {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     box-sizing: border-box;
     gap: 5rem;
-    height: 80vh;
+    height: auto;
+    margin-top: 5rem;
 }
 
 .symptom-container {
@@ -271,7 +273,7 @@ section {
 }
 
 .symptom-details-container {
-    justify-content: space-between;
+    justify-content: center;
     flex-direction: column;
 }
 
@@ -283,8 +285,6 @@ section {
 .symptom-img {
     border-radius: 2rem;
 }
-
-
 
 .details-container {
     padding: 2rem;
@@ -321,12 +321,14 @@ section {
 
 /* CASUES */
 #causes {
-    position: relative;
     display: flex;
     flex-direction: column;
-    align-items: center;
     justify-content: center;
-    text-align: center; 
+    align-items: center;
+    box-sizing: border-box;
+    gap: 5rem;
+    height: auto;
+    margin-top: 5rem;
 }
 
 .causes-container {
@@ -362,12 +364,14 @@ section {
 
 
 #benefits {
-    position: relative;
     display: flex;
     flex-direction: column;
-    align-items: center;
     justify-content: center;
-    text-align: center; 
+    align-items: center;
+    box-sizing: border-box;
+    gap: 5rem;
+    height: auto;
+    margin-top: 5rem;
 }
 
 .benefits-container {
@@ -394,14 +398,14 @@ section {
 
 
 #connect {
-    position: relative;
     display: flex;
     flex-direction: column;
-    align-items: center;
     justify-content: center;
-    text-align: center; 
+    align-items: center;
+    box-sizing: border-box;
     gap: 5rem;
-    height: 80vh;
+    height: auto;
+    margin-top: 5rem;
 }
 
 
