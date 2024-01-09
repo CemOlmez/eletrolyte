@@ -198,15 +198,17 @@ section {
     margin-top: 5rem;
 }
 
-.section_img_container {
+#home .section_img_container  {
     display: flex;
-    justify-content: center;
-    height: 400px;
-    width: 400px;
+    height: auto;
+    width: auto;
     margin: auto 0;
 }
 
+.title span {
+    color: #0047FF;
 
+}
 .section_text {
     align-self: center;
     text-align: center;
@@ -218,10 +220,11 @@ section {
 
 .section_text_p1 {
     text-align: center;
+    font-size: 1.25rem;
 }
 
 .section_text_p2 {
-    font-size: 1rem;
+    font-size: 1.25rem;
     margin-bottom: 1rem;
 }
 
@@ -287,7 +290,7 @@ section {
 }
 
 .details-container {
-    padding: 2rem;
+    padding: 3rem;
     flex: 1;
     background: white;
     text-align: center;
@@ -300,6 +303,8 @@ section {
 }
 
 .section_img_container {
+    display: flex;
+    justify-content: center;
     height: 500px;
     width: 600px;
     margin: auto 0;
