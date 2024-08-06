@@ -1,49 +1,37 @@
-@media screen and (max-width: 1400px) {
-    #home {
-      height: 83vh;
-      margin-bottom: 6rem;
-    }
-    .details-containers {
-      flex-wrap: wrap;
-    }
-    #symptoms,
-    #causes,
-    #benefits,
-    #connect {
-      height: fit-content;
-    }
-  }
-  
-  @media screen and (max-width: 1200px) {
+
+@media screen and (max-width: 1200px) {
     #home-nav {
       display: none;
+      
     }
     #navbar-toggler {
       display: flex;
     }
-    #symptoms,
-    .details-container {
-      margin-top: 2rem;
-    }
+
     #home,
     .section-container {
       display: block;
+      min-width: fit-content;
+      flex-wrap: wrap;
     }
+
+
+
     .icon-arrow {
       display: none;
     }
-    section,
-    .section-container {
-      height: fit-content;
-    }
-    section {
-      margin: 0 5%;
-    }
+    
     .section_img_container {
-      width: 400px;
-      height: 400px;
-      margin: 0 auto;
+      height: auto;
       margin-top: 2rem;
+      margin-left: 5rem;
+    }
+
+    .section-details-container {
+      margin-left: 10rem;
+    }
+    .section-details-container ul{
+      margin-left: 8rem;
     }
 
     .btn-home{
@@ -55,61 +43,66 @@
         font-size: 1.25rem;
     }
 
-    .symptom-details-container{
-        display: block;
+    #causes .section_img_container{
+      height: auto;
+      margin-top: 2rem;
+      margin-left: 15rem;
+    }
+
+    #benefits .section_img_container{
+      height: auto;
+      margin-top: 2rem;
+      margin-left: 7rem;
+    }
+
+    #causes .section-details-container {
+      margin-right: 15rem;
+    }
+    #causes .section-details-container ul{
+      margin-right: 6rem;
+    }
+
     }
 
 
-
-  }
-  
-  @media screen and (max-width: 600px) {
-    #connect,
-    footer {
-      height: 80vh;
-    }
-    #home {
-      height: 83vh;
-      margin-bottom: 0;
-    }
-  
-    footer n {
-      height: fit-content;
-      margin-bottom: 2rem;
-    }
-    .about-containers,
-    .social-container,
-    .buy-btn {
-      flex-wrap: wrap;
-    }
-    .social-container {
-      margin: 0;
+    @media screen and (max-width: 600px) {
+       
+    #home
+    {
+      margin:0 auto;
     }
 
-    .nav-links li a {
-      font-size: 1rem;
+    #home .section_img_container
+    {
+      padding-right: 0rem;
     }
-    .experience-sub-title {
-      font-size: 1.25rem;
-    }
-    .logo {
-      font-size: 1.5rem;
-    }
-    .nav-links {
-      flex-direction: column;
-      gap: 0.5rem;
-      text-align: center;
-    }
-    .section_img_container {
-      width: auto;
-      height: 46vw;
-      justify-content: center;
+    #symptoms .section_img_container img{
+      width: 100%;
+      width: 400px;
+      height: auto;
+      padding-right: 1rem;
     }
 
-    .title {
-      font-size: 2rem;
+    #causes .section_img_container img{
+      height: 400px;
+      width: 400px;
     }
-    .text-container {
-      text-align: justify;
+    #benefits .section_img_container img{
+      height: 400px;
+      width: 400px;
+      padding-right: 3rem;
     }
-  }
+
+    #navbar-toggler{
+
+      min-width: fit-content;
+    }
+
+    html, body {
+      overflow-x: hidden;
+    }
+
+    }
+
+    
+    

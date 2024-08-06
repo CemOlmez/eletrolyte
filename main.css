@@ -39,6 +39,7 @@ nav,
 .logo {
     position: relative;
 }
+
 .logo img {
     height: 10vh;
 }
@@ -198,7 +199,7 @@ section {
     margin-top: 5rem;
 }
 
-#home .section_img_container  {
+#home .section_img_container {
     display: flex;
     height: auto;
     width: auto;
@@ -209,6 +210,7 @@ section {
     color: #0047FF;
 
 }
+
 .section_text {
     align-self: center;
     text-align: center;
@@ -233,7 +235,7 @@ section {
     text-align: center;
 }
 
-.btn-home{
+.btn-home {
     margin-top: 2rem;
 }
 
@@ -248,7 +250,7 @@ section {
 
 .icon-arrow {
     position: absolute;
-    right: -5rem; 
+    right: -5rem;
     bottom: 2.5rem;
     height: 6vh;
     width: 3vw;
@@ -275,17 +277,18 @@ section {
     margin-top: 1rem;
 }
 
-.symptom-details-container {
+.section-details-container {
     justify-content: center;
     flex-direction: column;
 }
 
 .symptom-container,
-.symptom-details-container {
+.section-details-container {
     display: flex;
+    margin-right: 5rem;
 }
 
-.symptom-img {
+.section-img {
     border-radius: 2rem;
 }
 
@@ -305,9 +308,10 @@ section {
 .section_img_container {
     display: flex;
     justify-content: center;
-    height: 500px;
+    height: 600px;
     width: 600px;
     margin: auto 0;
+    padding-right: 4rem;
 }
 
 .details-container ul {
@@ -315,16 +319,17 @@ section {
     margin-left: 1.25rem;
     font-size: large;
 }
+
 .details-container h3 {
     margin-bottom: 2rem;
 }
+
 .details-container img {
     margin-bottom: 2rem;
 }
 
+/* CAUSES */
 
-
-/* CASUES */
 #causes {
     display: flex;
     flex-direction: column;
@@ -338,35 +343,30 @@ section {
 
 .causes-container {
     gap: 2rem;
-    margin-bottom: 2rem;
-    margin-top: 2rem;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+}
+#causes .section-container{
+    flex-direction: row-reverse;
 }
 
-.causes-details-container {
-    justify-content: center;
-    flex-direction: column;
-}
-
-.causes-container,
-.causes-details-container {
-    display: flex;
-}
-
-.causes-img {
-    border-radius: 2rem;
-}
-
-.causes-container {
-    padding: 5rem;
+#causes .details-container {
+    padding: 3rem;
     flex: 1;
     background: white;
     text-align: center;
     margin: auto 0;
+    margin-left: 10rem;
+}
+
+.causes-container,
+.section-details-container {
+    display: flex;
+    margin-right: 5rem;
 }
 
 
-/* Benefits Section */
-
+/* BENFITS */
 
 #benefits {
     display: flex;
@@ -381,23 +381,17 @@ section {
 
 .benefits-container {
     gap: 2rem;
-    margin-bottom: 2rem;
-    margin-top: 2rem;
-}
-
-.benefits-details-container {
-    justify-content: center;
-    flex-direction: column;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
 }
 
 .benefits-container,
-.benefits-details-container {
+.section-details-container {
     display: flex;
+    margin-right: 5rem;
 }
 
-.benefits-img {
-    border-radius: 2rem;
-}
+
 
 /* FOOTER */
 
@@ -413,8 +407,8 @@ section {
     margin-top: 5rem;
 }
 
-
 .footer-text p {
+    text-align: center;
     font-size: 1.50rem;
     margin: 0 auto;
 }
@@ -422,10 +416,17 @@ section {
 #social-container {
     display: flex;
     justify-content: center;
-    margin-top: 1rem ;
+    margin-top: 1rem;
     gap: 3rem;
 }
 
-#social-container img { 
+#social-container img {
     height: 5vh;
 }
+
+/*.lang-select p {
+    display: flex;
+    font-size: 1.25rem;
+    font-weight: 500;
+
+}*/
